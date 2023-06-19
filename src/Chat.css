@@ -1,0 +1,109 @@
+ .chat{
+     flex : 0.70;
+     background-color: #ECF2FF;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .chat_header{
+    padding: 14px;
+     display: flex;
+     align-items: center;
+     background-color: #ECF2FF;
+     border-bottom:   1px solid #ACBCFF;
+ }
+
+ .chat_headerInfo{
+     flex: 1;
+     padding-left: 20px;
+ }
+
+ .chat_headerInfo > h4 {
+    height: 10px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.chat_headerInfo > p {
+    margin-bottom: 0;
+    color: gray;
+}
+
+
+.chat_headerRight {
+    display: flex;
+    min-width: 100px;
+    justify-content: space-between;
+}
+
+
+.chat_body{
+    flex: 1;
+ background-image: url("https://mcdn.wallpapersafari.com/medium/27/32/jt4AoG.jpg");
+ background-repeat: repeat;
+ background-position: center;
+ overflow: scroll;
+ padding: 30px;
+}
+
+.chat_bodyMessage{
+    position: relative;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #ECF2FF;
+    border-radius: 10px;
+    width: fit-content;
+    margin-top: 7px;
+}
+
+.chat_bodyReceiver{
+    margin-left: auto;
+    background-color: #E5D1FA;
+    border-radius: 10px;
+    width: fit-content;
+    margin-top: 7px;
+}
+
+.chat_name{
+    position: absolute;
+    top: -15px;
+    font-weight: 800;
+    font-size: 12px;
+    padding-bottom: 7px;
+}
+
+.chat_timestamp {
+    margin-left: 10px;
+    font-size: xx-small;
+
+}
+
+.chat_footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border: 1px solid #ACBCFF;
+}
+
+.chat_footer > form {
+    flex: 1;
+    display: flex;
+    /* background-color: hotpink; */
+}
+
+.chat_footer > form > input {
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+}
+
+.chat_footer > form > button {
+    display: none;
+}
+
+.chat_footer > .MuiSvgIcon-root{
+    padding: 10px;
+    color: #7286D3;
+}
